@@ -23,7 +23,7 @@ require Exporter;
 
 @ISA = qw(Exporter);
 
-$VERSION = do { my @r = (q$Revision: 1.11 $ =~ /\d+/g); sprintf "%d."."%02d" x $#r, @r };
+$VERSION = do { my @r = (q$Revision: 1.12 $ =~ /\d+/g); sprintf "%d."."%02d" x $#r, @r };
 
 @EXPORT_OK = qw(
 	hexDumper
@@ -336,7 +336,7 @@ Michael Robinton, <miker@cpan.org>
 
 =head1 COPYRIGHT
 
-Copyright 2013, Michael Robinton
+Copyright 2013-2014, Michael Robinton
 
 This program is free software; you may redistribute it and/or modify it
 under the same terms as Perl itself.
